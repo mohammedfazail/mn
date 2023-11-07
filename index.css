@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 4, 4);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 5);
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 70px;
+}
+#line{
+    width: 70px;
+    height: 1px;
+    background-color: white;
+}
+/* #content{
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: lightblue;
+} */
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 30px;
+}
+.snav p:hover{
+    border-bottom: 2px solid rgb(4, 4, 15);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+
+}
+.snav img{
+    width: 5%;
+}
+.lens{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background: rgb(10, 10, 10);
+    padding: 11px;
+    text-align: center;
+}
+.lens img{
+    display: flex;
+    width: 18%;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+
+}
+#img {
+width: 100%;
+height: 60%;
+display: flex;
+justify-content: center;
+background-color: black;
+}
+#card{
+    padding: 20px 20px;
+    font-size: 10px;
+    background-color: black;
+}
+#i-img img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: black;
+}
+#p p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+#img-prt2 img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+#img-prt3 img{
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+#footer{
+    /* display: flex; */
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 33px;
+}
+#footor .list ul{
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    
+}
